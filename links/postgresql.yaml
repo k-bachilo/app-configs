@@ -1,0 +1,11 @@
+link.db.postgresql:
+  inputSchema:
+  minimumIdle: 2
+  maxIdleTime: 30000
+  connectionTimeout: 30000
+  cachePrepStmts: true
+  prepStmtCacheSize: 250
+  prepStmtCacheSqlLimit: 2048
+  leakDetectionThreshold: 55000
+  maxLifeTime: 90000
+  shouldTrace: false
